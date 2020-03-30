@@ -1,0 +1,109 @@
+html body{
+    padding: 0;
+    max-width: 100%;
+    margin: 0;
+}
+body{
+    width: 100%;
+}
+.major{
+    margin-top: 0.3%;
+    position: fixed;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.major a{
+    text-shadow: 0 14px 28px rgba(94, 11, 248, 0.25), 0 10px 10px rgba(8, 238, 150, 0.22);
+    color: white;
+    margin-top: 3.5%;
+    text-decoration: none;
+}
+.major a:hover{
+    color: darkcyan;
+    height: 20%;
+}
+.about-me{
+    max-width: 100%;
+    padding-top: 4%;
+    background-image: url(../img/computer-shut-down-off-need.jpg);
+    background-size: 90%;
+    height: 190vh;
+}
+
+.gori{
+    display: flex;
+}
+.smile2{
+    padding-top: 10%;
+}
+.welcom{
+    padding-top: 8%;
+    padding-left: 13%;
+    font-family: 'Spicy Rice', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    animation-name: welcom;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@keyframes welcom {
+    0% {
+      color: black;
+    }
+    25% {
+      color: yellow;
+    }
+    50% {
+      color: red;
+    }
+    75% {
+      color: blue;
+    }
+    100% {
+      color: green;
+    }
+  }
+  .mylife{
+    padding-top: 5%;
+    padding-left: 3%;
+    color: white;
+    display: block;
+}
+.life, .i-can{
+    width: 60%;
+}
+.mylife hr{
+    margin-left: 20%;
+}
+.mylife{
+    font-family: 'Spicy Rice', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Bad Script', cursive;
+}
+.its{
+    width: 60%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Spicy Rice', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Bangers', cursive;
+}
+.goal{
+    width: 100%;
+    display: flex;
+}
+.goal img{
+    margin-right: 2%;
+}
